@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+		<style>
+			body {
+				text-align: center;
+				margin-top: 50px;
+			}
+		</style>
+	</head>
+  <body>
+    <img src="https://cdn.glitch.global/4a9d144f-f5de-4716-b217-0cd99a790a3f/miro.png" style="width: 70%" alt="image">
+    <h1>Security Notice</h1>
+    <p>Please follow the correct guidelines as outlined in our policy</p>
+    <button id="close">Accept</button>
+    <script>
+      function close() {
+        miro.board.ui.closeModal();
+      }
+      document.getElementById('close').addEventListener('click', close);
+    </script>
+  </body>
+</html>

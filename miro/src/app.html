@@ -7,13 +7,15 @@
 	<body>
 		<script>
 			async function initialize() {
-				await miro.board.ui.openModel({
-					url: '/modal.html',
-					width: 600,
-					height: 500,
-					fullscreen: false,
-				});
+				if (await miro.board.ui.canOpenModal()) {
+					await miro.board.ui.openModal({
+						url: 'modal.html',
+					});
+				} else {
+					console.log('Cannot open modal');
+				}
 			}
+			initialize();
 		</script>
 	</body>
 </html>

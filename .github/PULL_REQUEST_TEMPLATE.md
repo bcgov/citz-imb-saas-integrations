@@ -7,7 +7,7 @@ Example: PIMS-700: A great ticket
 ## 🎯 Summary
 
 <!-- EDIT JIRA LINK BELOW -->
-[[AO-]-###: ](https://apps.itsm.gov.bc.ca/jira/browse/AO-###)
+[AO-###: ](https://apps.itsm.gov.bc.ca/jira/browse/AO-###)
 
 <!-- PROVIDE BELOW an explanation of your changes -->
 

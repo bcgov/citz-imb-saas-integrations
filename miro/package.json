@@ -1,0 +1,19 @@
+{
+  "name": "miro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcgov/citz-imb-saas-integrations.git"
+  },
+  "author": "Province of BC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bcgov/citz-imb-saas-integrations/issues"
+  },
+  "homepage": "https://github.com/bcgov/citz-imb-saas-integrations#readme"
+}

@@ -1,13 +1,13 @@
-<!--  
-PR Title format:  
-JIRA_BOARD_ABBREVIATION-JIRA_TASK_NUMBER: TITLE_OF_JIRA_TASK  
-Example: PIMS-700: A great ticket                                       
--->  
+<!--
+PR Title format:
+JIRA_BOARD_ABBREVIATION-JIRA_TASK_NUMBER: TITLE_OF_JIRA_TASK
+Example: PIMS-700: A great ticket
+-->
 
 ## 🎯 Summary
 
-<!-- EDIT JIRA LINK BELOW -->  
-[[CHANGE-ME]-###: ](https://apps.itsm.gov.bc.ca/jira/browse/[CHANGE-ME]-###)
+<!-- EDIT JIRA LINK BELOW -->
+[[AO-]-###: ](https://apps.itsm.gov.bc.ca/jira/browse/AO-###)
 
 <!-- PROVIDE BELOW an explanation of your changes -->
 

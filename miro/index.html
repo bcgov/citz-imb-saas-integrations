@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+  </head>
+  <body>
+    <script>
+			async function initialize() {
+				if (await miro.board.ui.canOpenModal()) {
+          console.log('Opening modal');
+					await miro.board.ui.openModal({
+						url: './src/modal/modal.html',
+					});
+				} else {
+					console.log('Cannot open modal');
+				}
+			}
+			initialize();
+		</script>
+  </body>
+</html>

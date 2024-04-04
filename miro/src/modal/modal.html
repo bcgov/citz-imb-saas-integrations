@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+    <style>
+      body {
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Notice</h1>
+    <p>
+      Miro and any of its services available under this license shall be used for business-related
+      activities only. Please do not input or upload any personal information about yourself or
+      others into the Miro application. Please also ensure that you are logged into Miro using VPN
+      while working remotely.
+    </p>
+    <button id="close">Accept</button>
+    <script>
+      function close() {
+        miro.board.ui.closeModal();
+      }
+      document.getElementById('close').addEventListener('click', close);
+    </script>
+  </body>
+</html>

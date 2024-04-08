@@ -51,7 +51,7 @@ objects:
       spec:
         containers:
           - name: miro-privacy-popup
-            image: artifacts.developer.gov.bc.ca/tec1-citz-imb-saas-integrations/miro-privacy-popup:${IMAGE_TAG}
+            image: artifacts.developer.gov.bc.ca/tec1-saas-integrations/miro-privacy-popup:${IMAGE_TAG}
             ports:
               - containerPort: 3000
                 protocol: TCP

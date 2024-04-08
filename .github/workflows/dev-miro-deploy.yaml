@@ -42,7 +42,7 @@ jobs:
       - name: Process and Apply Miro Privacy Popup DeploymentConfig
         env:
           NAMESPACE: '${{ secrets.OPENSHIFT_DEV_NAMESPACE }}'
-          DC_TEMPLATE: 'miro-privacy-popup-dc-template.yaml'
+          DC_TEMPLATE: 'app-dc-template.yaml'
           IMAGE_TAG: ${{ env.IMAGE_TAG }}
           ENVIRONMENT: 'dev'
           APPLICATION_NAME: 'miro-privacy-popup'

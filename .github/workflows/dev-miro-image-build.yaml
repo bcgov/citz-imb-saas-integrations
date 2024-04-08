@@ -39,7 +39,7 @@ jobs:
       # TODO dockerfile update to none dev naming convention
       - name: Build Miro Privacy Popup Image
         run: |
-          cd miro && docker build --build-arg NODE_IMAGE_TAG=${NODE_IMAGE_TAG} -t artifacts.developer.gov.bc.ca/tec1-saas-integrations/miro-privacy-popup:${{github.event.pull_request.number}} -f Dockerfile.dev .
+          cd miro && docker build --build-arg NODE_IMAGE_TAG=${NODE_IMAGE_TAG} -t artifacts.developer.gov.bc.ca/tec1-saas-integrations/miro-privacy-popup:${{github.event.pull_request.number}} -f Dockerfile.prod .
 
       # Push the Miro Privacy Popup Image to Artifactory
       - name: Push the Miro Privacy Popup Image to Artifactory

@@ -70,7 +70,7 @@ parameters:
     displayName: AppName
     name: APPLICATION_NAME
     required: true
-    value: coco-frontend
+    value: miro-privacy-popup
   - description: Environment
     displayName: Environment
     name: ENVIRONMENT

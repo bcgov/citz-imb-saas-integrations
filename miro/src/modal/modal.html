@@ -3,21 +3,51 @@
   <head>
     <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
     <style>
+      @font-face {
+        font-family: 'BC Sans';
+        src: url(./fonts/2023_01_01_BCSans-Regular_2f.ttf);
+      }
       body {
-        text-align: center;
-        margin-top: 50px;
+        font-family: 'BC Sans', 'Noto Sans', 'Verdana', 'Arial', 'sans-serif';
+        font-size: 12px;
+        margin: 0;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+      }
+      .content {
+        margin-left: 22px;
+      }
+      .content p {
+        line-height: 1.8;
+      }
+      #close {
+        background-color: #234075;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        padding: 8px 16px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <h1>Privacy Notice</h1>
-    <p>
-      Miro and any of its services available under this license shall be used for business-related
-      activities only. Please do not input or upload any personal information about yourself or
-      others into the Miro application. Please also ensure that you are logged into Miro using VPN
-      while working remotely.
-    </p>
-    <button id="close">Accept</button>
+    <div class="flex-container">
+      <img src="./images/BC_CITZ_H_RGB_pos.png" alt="Citizens' Services logo" style="height: 125px" />
+      <div class="content">
+        <h3>Privacy Notice</h3>
+        <p>
+          Miro and any of its services available under this license shall be used for
+          business-related activities only. Please do not input or upload any personal information
+          about yourself or others into the Miro application. Please also ensure that you are logged
+          into Miro using VPN while working remotely.
+        </p>
+        <button id="close">Accept</button>
+      </div>
+    </div>
     <script>
       function close() {
         miro.board.ui.closeModal();
